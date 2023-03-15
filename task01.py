@@ -10,7 +10,7 @@ os.system('cls')
 count_monet = int(input('Колл-во монет '))
 eagle = 0
 tails = 0
-for i in range(0,count_monet):
+for i in range(count_monet):
     monet = int(input('Орёл или решка(0 --> орёл, 1 --> решка ) '))
     if monet == 0:
         eagle +=1  
